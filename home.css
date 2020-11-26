@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+.Home {
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: serif;
+    color: rgb(23, 1, 150);
+}
+
+.Logo {
+    max-width: 100vw;
+    height: 45vw;
+    position: fixed;
+    left: 40vw;
+    top: 0px;
+    animation: spin 60s infinite linear;
+    opacity: 25%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Home h1 {
+    position: absolute;
+    left: 2vw;
+    top: -3vh;
+    width: 75vh;
+    font-size: 12.6vh;
+}
+
+.Home p {
+    position: absolute;
+    width: 75vh;
+    top: 69vh;
+    left: 2.8vw;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.Home nav {
+    opacity: 0%;
+}
+
+.Home button {
+    position: absolute;
+    width: 15vw;
+    top: 84vh;
+    text-indent: 10px;
+    letter-spacing: 0.5vw;
+    height: 6vh;
+    background-color: 36393e;
+    outline-color: rgb(23, 1, 150);
+    outline-width: 0.1px;
+    border-color: rgb(23, 1,150);
+    border-width: 2px;
+    border-radius: 5px;
+    padding-top: 4px;
+    color: #36393e;
+    font-size: 1.2vw;
+}
+
+.More {
+    left: 2.7vw;
+}
+
+.Join {
+    left: 20.5vw;
+}
+
+.About {
+    background-color: #002145;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Members {
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.parallax {
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png);
+
+     height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+       }
