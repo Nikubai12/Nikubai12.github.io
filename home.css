@@ -102,3 +102,50 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
        }
+
+
+/* This next section deals with the typewriter look for certain words */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+#parent {
+  height: 45px;
+  white-space: nowrap;
+  overflow: hidden; 
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(23, 1, 150);
+  position: relative;
+  top: 66vh;
+  left: 2vw;
+}
+
+#border {
+  border-bottom: solid 3px rgba(23,1,150);
+  position: relative;
+  right: -7px;
+  width: 20px;
+}
+
+/* Animation */
+#parent {
+  animation: animated-text 3s steps(30,end) 1s 1 normal both
+}
+
+#border {
+   animation: animated-cursor 600ms steps(30,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 600px; height: 30;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-bottom-color: rgba(23, 1, 150);}
+  to{border-bottom-color: transparent;}
+}
