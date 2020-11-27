@@ -1,15 +1,17 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* old logo url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png) */
 .Home {
-    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png);
+    background-color: #000000;
     width: 100vw;
     height: 100vh;
     position: relative;
     padding-bottom: 20px;
     padding-top: 20px;
     font-family: serif;
-    color: rgb(23, 1, 150);
+    color: #D4AF37;
 }
 
 .Logo {
@@ -19,7 +21,7 @@ html {
     left: 40vw;
     top: 0px;
     animation: spin 60s infinite linear;
-    opacity: 25%;
+    opacity: 75%;
 }
 
 @keyframes spin {
@@ -114,14 +116,14 @@ html {
   overflow: hidden; 
   font-family: 'Source Code Pro', monospace;  
   font-size: 28px;
-  color: rgba(23, 1, 150);
+  color: #ffffff;
   position: relative;
   top: 66vh;
   left: 2vw;
 }
 
 #border {
-  border-bottom: solid 3px rgba(23,1,150);
+  border-bottom: solid 3px #D4AF37;
   position: relative;
   right: -7px;
   width: 20px;
@@ -146,6 +148,6 @@ html {
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-bottom-color: rgba(23, 1, 150);}
+  from{border-bottom-color:#D4AF37;}
   to{border-bottom-color: transparent;}
 }
