@@ -47,7 +47,7 @@ html {
     top: 69vh;
     left: 2.8vw;
     font-size: 2vw;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #D4AF37;
 }
 
 .Home nav {
@@ -61,14 +61,14 @@ html {
     text-indent: 10px;
     letter-spacing: 0.5vw;
     height: 6vh;
-    background-color: 36393e;
-    outline-color: rgb(23, 1, 150);
-    outline-width: 0.1px;
-    border-color: rgb(23, 1,150);
+    background-color: #000000;
+    outline-color: #D4AF37;
+    outline-width: 1px;
+    border-color:#D4AF37;
     border-width: 2px;
     border-radius: 5px;
     padding-top: 4px;
-    color: #36393e;
+    color:#D4AF37;
     font-size: 1.2vw;
 }
 
@@ -81,18 +81,26 @@ html {
 }
 
 .About {
-    background-color: #002145;
+    background-color: #002366;
     position: relative;
     width: 100vw;
     height: 100vh;
+    font-family: serif;
+    color: #D4AF37;
+    padding-top: 50vh;
+    padding-left: 30vw;
     
 }
 
 .Members {
     background-color: #000000;
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
+    padding-top: 50vh;
+    padding-left: 30vw;
+    font-family: serif;
+    color: #D4AF37;
 }
 
 .parallax {
