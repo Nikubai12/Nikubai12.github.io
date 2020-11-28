@@ -28,6 +28,7 @@ html {
     background-color: #000000;
     overflow: hidden;
     position: relative;
+    top: 0;
     width: 100vw;
   }
   
@@ -54,7 +55,7 @@ html {
     background-color: #b5001a;
     color: #D4AF37;
   }
-
+  
 
 
 
@@ -69,6 +70,7 @@ html {
     padding-top: 20px;
     font-family: serif;
     color: #D4AF37;
+  
 }
 
 
