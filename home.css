@@ -1,7 +1,26 @@
 html {
     scroll-behavior: smooth;
 }
-
+/* scroll bar settings */
+html {
+    --scrollbarBG: #000000;
+    --thumbBG: #D4AF37;
+  }
+  body::-webkit-scrollbar {
+    width: 13px;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 100px;
+    border: 2px solid var(--scrollbarBG);
+  }
 
 /* Navbar CSS */
 /* Add a black background color to the top navigation */
@@ -9,6 +28,7 @@ html {
     background-color: #000000;
     overflow: hidden;
     position: relative;
+    width: 100vw;
   }
   
   /* Style the links inside the navigation bar */
@@ -42,7 +62,7 @@ html {
 /* old logo url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png) */
 .Home {
     background-color: #000000;
-    width: 100vww;
+    width: 100vw;
     height: 100vh;
     position: relative;
     padding-bottom: 20px;
