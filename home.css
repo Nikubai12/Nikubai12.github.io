@@ -158,10 +158,15 @@ html {
     position: relative;
     width: 100vw;
     height: 100vh;
-    font-family: serif;
+    font-family: 'Open-Sans';
+    font-size: 40px;
     color: #D4AF37;
-    padding-top: 50vh;
-    padding-left: 30vw;
+    padding-top: 25vh;
+    padding-bottom: 10vh ;
+    padding-left:10vw;
+    padding-right:10vw  ;
+    text-align:  center;
+    letter-spacing: 0.05vw;
     
 }
 
@@ -174,6 +179,14 @@ html {
     padding-left: 30vw;
     font-family: serif;
     color: #D4AF37;
+    font-size: 30px;
+    color: #D4AF37;
+    padding-top: 25vh;
+    padding-bottom: 10vh ;
+    padding-left:10vw;
+    padding-right:10vw  ;
+    text-align:  center;
+    letter-spacing: 0.05vw;
 }
 
 .parallax {
@@ -187,6 +200,20 @@ html {
     background-size: cover;
        }
 
+
+.standout {
+color: #ffffff;
+
+text-decoration:underline ;
+}
+
+
+.standout1 {
+    color: #ffffff;
+    
+    font-style: italic ;
+    }
+    
 
 /* This next section deals with the typewriter look for certain words */
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
