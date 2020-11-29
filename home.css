@@ -165,7 +165,7 @@ html {
     height: 100vh;
     font-family: 'Open-Sans';
     font-size: 40px;
-    color: #D4AF37;
+    color: #FFDF00;
     padding-top: 40vh;
     padding-bottom: 10vh ;
     padding-left:10vw;
@@ -183,12 +183,13 @@ html {
     height: 100vh;
     font-family: 'Open-Sans';
     font-size: 30px;
-    color: #D4AF37;
+    color: #FFDF00;
     padding-top: 25vh;
     padding-bottom: 10vh ;
     padding-left:10vw;
     padding-right:10vw  ;
     text-align:  center;
+    vertical-align: middle;
     letter-spacing: 0.05vw;
     
 }
@@ -197,8 +198,8 @@ html {
     width: 50vw;
     height: 57vh;
     margin-left: 50%;
-    background-image: url(me2trim.png);
-    background-size: 22%;
+    background-image: url(mesmoke1.png);
+    background-size: 64%;
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
