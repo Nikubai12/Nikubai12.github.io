@@ -36,11 +36,12 @@ html {
   .topnav a {
     float: right;
     
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: start;
-    padding: 16px 16px;
+    padding: 15px 1.5vw;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
+    font-family:'Open-Sans' ;
   }
   
   /* Change the color of links on hover */
@@ -51,7 +52,7 @@ html {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-      float: right;
+    float: right;
     background-color: #b5001a;
     color: #FFDF00;
   }
