@@ -157,6 +157,25 @@ html {
     left: 20.5vw;
 }
 
+
+.About {
+    background-color: #002366;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open-Sans';
+    font-size: 40px;
+    color: #D4AF37;
+    padding-top: 40vh;
+    padding-bottom: 10vh ;
+    padding-left:10vw;
+    padding-right:10vw  ;
+    text-align:  center;
+    letter-spacing: 0.05vw;
+    
+}
+
+
 .AboutO {
     background-color: #002366;
     position: relative;
