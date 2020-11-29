@@ -99,6 +99,8 @@ html {
     opacity: 75%;
 }
 
+
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -155,13 +157,13 @@ html {
     left: 20.5vw;
 }
 
-.About {
+.AboutO {
     background-color: #002366;
     position: relative;
     width: 100vw;
     height: 100vh;
     font-family: 'Open-Sans';
-    font-size: 40px;
+    font-size: 30px;
     color: #D4AF37;
     padding-top: 25vh;
     padding-bottom: 10vh ;
@@ -171,6 +173,20 @@ html {
     letter-spacing: 0.05vw;
     
 }
+
+.oimage{
+    width: 50vw;
+    height: 57vh;
+    margin-left: 50%;
+    background-image: url(me2trim.png);
+    background-size: 22%;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    ;
+
+}
+
 
 .Members {
     background-color: #000000;
