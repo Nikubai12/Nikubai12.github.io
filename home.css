@@ -301,3 +301,32 @@ text-decoration:underline ;
   from{border-bottom-color:#D4AF37;}
   to{border-bottom-color: transparent;}
 }
+
+
+
+
+
+/* contact links styles */
+a:link {
+  color: #D4AF37;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#D4AF37;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFDF00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #D4AF37;
+  background-color: transparent;
+  text-decoration: underline;
+}
