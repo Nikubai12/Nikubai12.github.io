@@ -314,19 +314,19 @@ a:link {
 }
 
 a:visited {
-  color:#D4AF37;
+  color:#D4AF37 !important;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FFDF00;
+  color:#FFDF00 !important;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: #D4AF37;
+  color: #D4AF37 !important;
   background-color: transparent;
   text-decoration: underline;
 }
