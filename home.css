@@ -330,3 +330,18 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+
+
+
+
+
+/* Easter Egg - Use Navy Blue */
+.egg{
+  color: #000000;
+  text-align: center;
+}
+
+.egg:hover{
+  color:#660066;
+}
