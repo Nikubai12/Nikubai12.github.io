@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <!-- <link href="Memes.png" rel="icon" type="image/png" /> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true"> 
+        <title>Live View Camera</title>
+    <link rel="stylesheet" type="text/css" href="PR_Cam_Style.css" />
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="top_image">
+        <h1>
+            The top navigation bar will be placed here
+        </h1>
+        <br><br><br><br>
+    </div>
+
+
+    <div class="main">
+        <h1>                                        <!-- Title and Subtitle goes here-->
+            <p class="title">Insert quirky Title Here</p> <br><br>
+            <p class="subtitle"> Insert quirkier subtitle here</p> <br><br>
+        </h1>
+
+                                                            <!-- Timer Intro-->
+        <p class="title">
+            THE NEXT EVENT IS IN:
+        </p>
+            <p class = "title" id="timer">
+
+                                                        
+                                                        <!-- Countdown Timer Code-->
+            <script>
+                 // Set the date we're counting down to in the form of example ("Jan 17, 2022 00:00:00")
+                    var countDownDate = new Date("Mar 3, 2021 00:00:00").getTime(); //EDIT THE DATE HERE AFTER EACH SESSION
+                                                            
+                 // Update the count down every 1 second
+                    var x = setInterval(function() {
+                                                            
+                 // Get today's date and time
+                      var now = new Date().getTime();
+                                                                
+                  // Find the distance between now and the count down date
+                    var distance = countDownDate - now;
+                                                                
+                  // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                                                
+                  // Output the result in an element with id="timer"
+                    document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                                                                
+                  // If the count down is over, write some text 
+                    if (distance < 0) {
+                        clearInterval(x);
+                            document.getElementById("timer").innerHTML = "LIVE NOW"
+                                      }
+                        }, 1000);
+            </script>
+             </p> 
+
+
+                                                         <!-- Insert the feeds here-->
+            <div class="feeds">
+                <img style="-webkit-user-select: none;margin: auto;background-color: white; padding-left: 10px; padding-right: 5px;" 
+                src="http://129.128.208.184/cgi-bin/video.cgi" width="100%" height="500px">
+            </div>
+
+            <div class="feeds">
+                <img style="-webkit-user-select: none;margin: auto;background-color: white; padding-right: 20px; padding-right: 5px;" 
+                src="http://129.128.208.190/cgi-bin/video.cgi" width="100%" height="500px" >
+            </div>
+                                                    
+             
+             
+                                                        <!-- The Google Calendar goes here-->
+             <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23039BE5&amp;ctz=America%2FEdmonton&amp;src=Y18yanM3NXNlbGFkbWpxbzVzMWY0aXQybXU4OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%234285F4&amp;color=%230B8043" 
+             style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+        
+
+    </div>
+
+
+    <div class="sponsors">
+        <h1>
+            Insert the sponsors' images here
+        </h1> 
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+        
+    </div>
+
+
+    <div class="bottom">
+        <h1>
+            Insert the bottom website directory here
+        </h1>
+        <br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
+    </div>
+    
+
+
+
+       
